@@ -1,0 +1,69 @@
+* {
+    font-family: Arial;
+    color: #333333;
+}
+
+body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+#mode-scdl-wrapper {
+    max-width: 680px;
+    margin: 20px auto 0;
+}
+
+.hours {
+    margin: 0 auto;
+    height: 15px;
+    display: block;
+}
+
+.hours .hour {
+    width: 4.1667%;
+    float: left;
+}
+
+#mode-scdl {
+    max-width: 680px;
+    margin: 2px auto;
+}
+
+#mode-scdl > div {
+    height: 20px;
+    margin: 2px 0;
+    position: relative;
+}
+
+#mode-scdl > div > div {
+    height: 20px;
+    float: left;
+    display: inline-block;
+}
+
+.btn {
+    display: inline-block;
+    float: right;
+    padding: 5px;
+    margin: 5px;
+    color: #ffffff;
+}
+
+.btn:first-child {
+    margin-right: 0;
+}
+
+.eco {
+    background-color: #005363;
+}
+
+.standby {
+    background-color: #858585;
+}
+
+.comfort {
+    background-color: #a0a0a0;
+}
+
